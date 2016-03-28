@@ -1,1 +1,1 @@
-include ':app', ':CloudBackend'
+include ':CloudBackend'

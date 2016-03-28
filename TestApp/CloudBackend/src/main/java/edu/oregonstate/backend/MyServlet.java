@@ -9,12 +9,19 @@ package edu.oregonstate.backend;
 import java.io.IOException;
 import javax.servlet.http.*;
 
+@SuppressWarnings("serial")
 public class MyServlet extends HttpServlet {
-    @Override
+//    @Override
+//    public void doGet(HttpServletRequest req, HttpServletResponse resp)
+//            throws IOException {
+//        resp.setContentType("text/plain");
+//        resp.getWriter().println("Please use the form to POST to this url");
+//    }
+
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
         resp.setContentType("text/plain");
-        resp.getWriter().println("Please use the form to POST to this url");
+        resp.getWriter().println("Hello, world");
     }
 
     @Override
