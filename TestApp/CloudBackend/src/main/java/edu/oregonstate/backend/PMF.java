@@ -1,8 +1,5 @@
 package edu.oregonstate.backend;
 
-/**
- * Created by Vee on 3/24/2016.
- */
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManagerFactory;
 
